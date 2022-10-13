@@ -124,7 +124,6 @@ z-index: 5;
   }
   .burgerMenu{
     display: block;
-    position: relative;
     background: none;
     border: none;
     width: 32px;
@@ -134,7 +133,7 @@ z-index: 5;
       position: absolute;
       display: block;
       top: 0px;
-      left: 0px;
+      right: 0px;
       width: 32px;
       border: 1px solid #FFFFFF;
       transition: transform 0.4s ease-out;
@@ -145,7 +144,7 @@ z-index: 5;
       position: absolute;
       display: block;
       top: 8px;
-      left: 0px;
+      right: 0px;
       width: 32px;
       border: 1px solid #FFFFFF;
       transition: transform 0.4s ease-out;
