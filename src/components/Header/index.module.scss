@@ -98,9 +98,9 @@ z-index: 5;
         }
       }
       .burgerMenu{
-        position: absolute;
+        position: fixed;
         top: 43px;
-        right:-28px;
+        right:28px;
         &::after{
           transform: rotate(45deg);
           transform-origin: center;
